@@ -18,6 +18,7 @@ cursor.execute(table)
 
 
 
+
 table_data = '''INSERT INTO notes(id,customer_name,vehicle_number,phone_number,insurance_provider_company,
 premium_amount,Date) VALUES(?,?,?,?,?,?,?)'''
 cursor.execute(table_data,(id,name,v_number,ph,company,amount,date))
