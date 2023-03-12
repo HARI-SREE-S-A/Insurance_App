@@ -1,7 +1,7 @@
 import pandas as pd
 import sqlite3
 
-jmn
+jm
 
 
 database = sqlite3.connect("test databse")
