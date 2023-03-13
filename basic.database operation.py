@@ -4,6 +4,7 @@ import sqlite3
 database = sqlite3.connect("test databse")
 cursor = database.cursor()
 
+
 id = int(input("id"))
 name = str(input("name"))
 v_number = str(input("vehicle_number"))
