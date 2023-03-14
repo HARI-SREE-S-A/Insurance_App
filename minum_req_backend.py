@@ -32,9 +32,13 @@ for o,i in enumerate(l):
     T_date = (datetime.strptime(ExpirationDate, '%d,%m,%Y'))
     Req_d = policy_exp-T_date
 
-    if Req_d.days < 10:
-        print(Req_d)
-        print(res[o][1],res[o][3],i)
+     if Req_d.days < 10:
+        dictn[Req_d.days] = (res[o][1],res[o][3],i)
+        #print(res[o][1],res[o][3],i)
+print(dictn)
+cursor.close()
+database.close()
+
 
 cursor.close()
 database.close()
