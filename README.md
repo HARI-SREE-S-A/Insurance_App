@@ -54,7 +54,7 @@ remarks
 > Milestone 1: Requirements gathering and analysis
 > 
 
-> Milestone 2: UI/UX design and development
+> Milestone 2: UI/UX design and development designed in FIGMA
 > 
 
 > Milestone 3: Backend development and integration
