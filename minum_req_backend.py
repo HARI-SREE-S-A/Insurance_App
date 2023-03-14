@@ -1,4 +1,4 @@
-mport sqlite3
+import sqlite3
 import time
 from datetime import date, datetime
 
