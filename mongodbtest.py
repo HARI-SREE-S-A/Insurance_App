@@ -1,9 +1,9 @@
 import pymongo
 import urllib.parse
 
-username = urllib.parse.quote_plus('harisreesa6')
-password = urllib.parse.quote_plus('Iris@gen360')
-client = MongoClient('mongodb://%s:%s@127.0.0.1' % (username, password))
+#username = urllib.parse.quote_plus('harisreesa6')
+#password = urllib.parse.quote_plus('Iris@gen360')
+client = MongoClient(mongodb+srv://test:test360@cluster0.l0btmlv.mongodb.net/?retryWrites=true&w=majority)
 
 db = client["test"]
 
