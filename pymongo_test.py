@@ -1,4 +1,4 @@
-mport pymongo
+import pymongo
 
 connection_s = "mongodb+srv://test:test360@cluster0.l0btmlv.mongodb.net/?retryWrites=true)"
 try:
