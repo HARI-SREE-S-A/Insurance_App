@@ -2,6 +2,8 @@
 
 
 
+
+
 > **Project Description and Goals:**
 The goal of this project is to develop a web-based application that enables a small insurance agency to keep track of expiring insurance policies for their clients. The app should allow employees and admins to upload and download insurance PDFs, view a list of expiring policies, and send notifications to clients to remind them of upcoming expirations.
 > 
