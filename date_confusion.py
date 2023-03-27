@@ -6,6 +6,5 @@ delta = d1 - d0
 
 
 
-
 if delta.days > 10:
     print(delta.days)
