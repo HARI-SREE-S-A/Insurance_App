@@ -16,7 +16,7 @@ def database_update():
     address = str(input("address"))
     ph = int(input("phone"))
     vehicle_number = str(input("vehicle number"))
-    Date = str(input("dd,mm,yyyy"))
+    Date = str(input("yyyy,mm,dd"))
 
     mydb = client["Insuarance_app"]
     mycollections = mydb["customer_data"]
