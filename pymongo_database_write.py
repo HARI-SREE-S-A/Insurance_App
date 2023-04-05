@@ -1,4 +1,5 @@
 from pymongo import MongoClient
+from datetime import datetime, timedelta
 
 
 
@@ -13,7 +14,8 @@ def database_update():
     address = str(input("address"))
     ph = int(input("phone"))
     vehicle_number = str(input("vehicle number"))
-    Date = str(input("dd,mm,yyyy"))
+    date = str(input("YYYY,mm,dd"))
+    Date = datetime.strptime(date, '%Y,%m,%d')
 
     mydb = client["Insuarance_app"]
     mycollections = mydb["customer_data"]
