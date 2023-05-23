@@ -13,7 +13,7 @@ app = Flask(__name__)
 
 def data_base_full():
     try:
-        client = MongoClient("mongodb+srv://test:harvis360@cluster0.l0btmlv.mongodb.net/?retryWrites=true&w=majority")
+        client = MongoClient("mongodb+srv://test:harvis30@cluster0.l0btmlv.mongodb.net/?retryWrites=true&w=majority")
         print("perfect")
         db = client["Insuarance_app"]
         collection = db["customer_data"]
