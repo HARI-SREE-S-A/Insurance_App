@@ -1,7 +1,7 @@
 from pymongo import MongoClient
 from datetime import datetime, timedelta
 
-
+# db update function 
 
 def db_connect():
     try:
